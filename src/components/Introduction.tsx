@@ -38,7 +38,7 @@ export function Introduction() {
           ))}
         </ul>
         <p className="mt-8">
-          By engaging with the content on NestJS Ninja, you'll gain the confidence and knowledge needed to create robust and efficient applications using NestJS.
+          By engaging with the content on NestJS Ninja, you&apos;ll gain the confidence and knowledge needed to create robust and efficient applications using NestJS.
         </p>
         <p className="mt-10">
           <Link
