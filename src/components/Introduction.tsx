@@ -12,29 +12,24 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          “Everything Starts as a Square” is a book and video course that
-          teaches you a simple method to designing icons that anyone can learn.
+          NestJS Ninja: Your Gateway to Mastering NestJS
         </p>
         <p className="mt-4">
-          Before I learned how to design icons myself, I always imagined that
-          they were drawn by hand using the pen tool, some sort of fancy
-          graphics tablet, and hours and hours spent manually fine-tuning bezier
-          curves.
+          NestJS Ninja is a blog dedicated to exploring the NestJS framework—a progressive Node.js framework for building efficient, scalable server-side applications.
         </p>
         <p className="mt-4">
-          But it turns out this isn’t how great icon designers work at all.
+          The blog delves into various aspects of NestJS development, offering tutorials and insights on topics such as implementing authentication with NestJS and PostgreSQL, integrating OpenAI to create smart questions, and more.
         </p>
         <p className="mt-4">
-          In “Everything Starts as a Square”, you’ll learn the systems experts
-          use to create pixel perfect icons, without relying on a steady hand.
+          The content is designed to help developers deepen their understanding of NestJS and apply best practices in their projects.
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Using boolean operations to combine basic shapes into complex icons',
-            'How to adapt icons to different sizes',
-            'Translating icons from an outline style to a solid style',
-            'Identifying the characteristics that make an icon set cohesive',
-            'Figma features and keyboard shortcuts to speed up your workflow',
+            'Implementing authentication with NestJS and PostgreSQL',
+            'Integrating OpenAI to create smart questions',
+            'Applying unit tests on NestJS with Jest and GitHub Actions',
+            'Handling database transactions with TypeORM in NestJS',
+            'Building scalable server-side applications with NestJS',
           ].map((feature) => (
             <li key={feature} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
@@ -43,16 +38,14 @@ export function Introduction() {
           ))}
         </ul>
         <p className="mt-8">
-          By the end of the book, you’ll have all the confidence you need to dig
-          in and start creating beautiful icons that can hold their own against
-          any of the sets you can find online.
+          By engaging with the content on NestJS Ninja, you'll gain the confidence and knowledge needed to create robust and efficient applications using NestJS.
         </p>
         <p className="mt-10">
           <Link
-            href="#free-chapters"
+            href="https://medium.com/nestjs-ninja"
             className="text-base font-medium text-blue-600 hover:text-blue-800"
           >
-            Get two free chapters straight to your inbox{' '}
+            Explore our latest articles and tutorials{' '}
             <span aria-hidden="true">&rarr;</span>
           </Link>
         </p>
