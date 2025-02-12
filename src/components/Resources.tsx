@@ -21,7 +21,7 @@ const resources = [
     },
   },
   {
-    title: 'NestJS Ninja Squad on daily.dev',
+    title: 'NestJS Ninja on daily.dev',
     description:
       'Join the NestJS Ninja community on daily.dev to stay updated with the latest news, discussions, and resources.',
     link: 'https://app.daily.dev/squads/nestjsninja',
@@ -34,10 +34,10 @@ const resources = [
     },
   },
   {
-    title: 'Henrique Weiand on DEV Community',
+    title: 'NestJS Ninja DEV Community',
     description:
-      'Read articles and insights on NestJS and other technologies by Henrique Weiand on DEV Community.',
-    link: 'https://dev.to/henriqueweiand',
+      'Read articles and insights on NestJS and other technologies on DEV Community.',
+    link: 'https://dev.to/nestjs-ninja',
     image: function DevToImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
